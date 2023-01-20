@@ -11,7 +11,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
 import {HeroDetailComponent} from './components/hero-detail/hero-detail.component';
-import {HeroesComponent} from './heroes/heroes.component';
+import {HeroesComponent} from './components/heroes/heroes.component';
 import {HeroSearchComponent} from './components/hero-search/hero-search.component';
 import {MessagesComponent} from './components/messages/messages.component';
 import { TempHeroComponent } from './components/temp-hero/temp-hero.component';

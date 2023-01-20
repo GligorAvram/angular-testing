@@ -58,8 +58,8 @@ describe('HeroDetailComponent', () => {
     });
 
     it('should render the hero name', () => {
-        const compiled = fixture.nativeElement;
-        expect(compiled.querySelector(`#hero-${heroes[0].id}`).textContent).toContain(heroes[0].name.toUpperCase());
+        const template = fixture.nativeElement;
+        expect(template.querySelector(`#hero-${heroes[0].id}`).textContent).toContain(heroes[0].name.toUpperCase());
     });
 });
 

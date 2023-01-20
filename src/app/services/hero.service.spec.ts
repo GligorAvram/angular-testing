@@ -64,7 +64,6 @@ describe('HeroService with the testbed', () => {
 
 
         it('Should return all heroes from the server without spies', (done: DoneFn) => {
-            // heroService = TestBed.inject(HeroService);
 
             subscription = heroService.getHeroes().subscribe({
                 next: heroes => {
