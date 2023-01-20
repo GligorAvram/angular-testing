@@ -45,7 +45,6 @@ describe('HeroService with the testbed', () => {
         let heroService: HeroService;
         let subscription: Subscription;
 
-
         beforeEach(() => {
             TestBed.configureTestingModule({
                 imports: [HttpClientTestingModule],
@@ -61,7 +60,6 @@ describe('HeroService with the testbed', () => {
             httpController.verify(); //Verifies that no requests are outstanding.
             subscription.unsubscribe();
         });
-
 
         it('Should return all heroes from the server without spies', (done: DoneFn) => {
 

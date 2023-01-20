@@ -16,7 +16,6 @@ describe('HighlightDirective', () => {
     class TestComponent {
     }
 
-    //todo
     let fixture: ComponentFixture<TestComponent>;
     let des: DebugElement[];
     let bareH2: DebugElement[];
